@@ -40,6 +40,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 .item1{
 
@@ -95,6 +96,18 @@
     border-radius: 10px;
     
 }
+.Button{
+    /* display: none; */
+    background-color: #6cc644; /* Green */
+    border: none;
+    color: white;
+    padding: 2vh 1vh;
+    /* align-self: center; */
+    /* text-align: center;   */
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
 .searchButton:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -107,16 +120,39 @@
 
 
 .profile-container{
-    /* text- */
-    /* animation: 2s cubic-bezier(0, 0, 0, 1) 0s 1 slideInRight; */
+    display: flex;
     color: #fafafa;
-    
+    align-self: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
 
 
 
 }
 
+.profile_pic{
+    display: flex;
+}
+.profile_data{
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.profile_val{
+    display: flex;
+    gap: 20px;
+}
 
+.profile_button{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 @media screen and (max-width: 1000px){
     *{
         margin: 10px 10px;
@@ -137,4 +173,5 @@
     .subtitle{
         display: none;
     }
+    
 }
