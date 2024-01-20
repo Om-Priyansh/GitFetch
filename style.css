@@ -4,7 +4,9 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     background: #333;
+    
 }
+
 
 @keyframes slideInRight{
     0% {
@@ -84,7 +86,7 @@
     text-align: center;
     text-decoration: none;
     
-    font-size: 2.5vh;
+    font-size: 4vh;
     
     cursor: pointer;
     
@@ -108,4 +110,31 @@
     /* animation: 2s cubic-bezier(0, 0, 0, 1) 0s 1 slideInRight; */
     color: #fafafa;
     
+
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    *{
+        margin: 10px 10px;
+    }
+    .input{
+        width: 30vh;
+        height: 5vh;
+        font-size: 2vh;
+    }
+    .searchButton{
+        /* width: 30vh; */
+        /* height: 5vh; */
+        font-size: 1em;
+    }
+    .text-container{
+        font-size: 1.5em;
+
+    }
+    .subtitle{
+        display: none;
+    }
 }
