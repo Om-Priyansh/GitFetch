@@ -173,5 +173,8 @@
     .subtitle{
         display: none;
     }
+    .profile_val{
+        gap: 0px;
+    }
     
 }
